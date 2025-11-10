@@ -4,7 +4,7 @@ const AppContainer = ({
   children,
   className = "",
   padding = "p-3",
-  maxWidth = "600px",
+  maxWidth = "",
   background = "",
   style = {},
   ...rest

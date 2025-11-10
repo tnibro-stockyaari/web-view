@@ -5,7 +5,7 @@ const Title = ({
   uppercase = true,
   style = {},
   className = "",
-  ...props   // yaha se saare attributes dynamic aa jayenge
+  ...props   
 }) => {
   const defaultStyle = {
     fontSize: "28px",
@@ -18,8 +18,8 @@ const Title = ({
   return (
     <h2
       className={className}
-      style={{ ...defaultStyle, ...style }}  // dynamic + override
-      {...props}  // onClick, id, data-attr, etc.
+      style={{ ...defaultStyle, ...style }}  
+      {...props}  
     >
       {children}
     </h2>

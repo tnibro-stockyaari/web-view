@@ -1,0 +1,21 @@
+   .td-header{
+      background:var(--bg);
+      border-bottom:1px solid var(--divider);
+      padding:10px 14px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      position:sticky;
+      top:0;
+      z-index:10;
+    }
+    .td-header .title{
+      font-size:15px;
+      font-weight:600;
+      margin:0;
+    }
+    .td-header .icons i{
+      font-size:18px;
+      color:var(--muted);
+      margin-left:10px;
+    }

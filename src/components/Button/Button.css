@@ -1,0 +1,9 @@
+/* Button.css */
+.fs-22 { font-size: 1.375rem !important; }  /* 22px */
+.fw-semibold { font-weight: 600 !important; }
+.rounded-14 { border-radius: 0.875rem !important; } /* 14px */
+
+/* optional custom spacers */
+.mt-68  { margin-top: 68px !important; }
+.mt-100 { margin-top: 100px !important; }
+.mt-136 { margin-top: 136px !important; }

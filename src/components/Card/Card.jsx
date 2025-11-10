@@ -1,8 +1,8 @@
 import React from "react";
 import verification from "../../assets/img/Group 1000009062.png";
 const Card = ({
-  phoneNumber = "+91-770380426",
-  verificationText = "the number registered in SEBI/KRA records",
+  title = "",
+  description = "the number registered in SEBI/KRA records",
   onContinue,
   className,
   style,
@@ -20,7 +20,7 @@ const Card = ({
     >
       <div className="d-flex justify-content-between align-items-center position-relative">
         <span className="fw-bold" style={{ fontSize: "14px" }}>
-          {phoneNumber}
+          {title}
         </span>
         <img
           src={verification}
@@ -38,7 +38,7 @@ const Card = ({
         className="d-flex justify-content-between align-items-start mt-2"
         style={{ fontSize: "10px" }}
       >
-        <p style={{ fontSize: "10px" }}>{verificationText}</p>
+        <p style={{ fontSize: "10px" }}>{description}</p>
         <button
           className="btn btn-dark "
           onClick={onContinue}
